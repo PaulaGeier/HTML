@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo HTML</title>
+    <style>
+        table{
+            width: 25%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: double black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado Principal</h1>
+        <ul>
+            <li><a href="#estrutura"  >Ir a Estructura</a></li>
+            <li><a href="#multimedia" >Ir a Multimedia</a></li>
+            <li><a href="#formulario">Ir a Formulario</a></li>
+        </ul>
+
+    
+    </header>
+    <main>
+        <h2 id="estrutura">ESTRUCTURA</h2>
+        <section>
+            <h3>1.Estructura Basica del Documento HTML</h3>
+            <p>Este documento HTML tiene una estructura basica que inclute la declaracion de DOCTYPE, etiquetas de metadatos y un titulo</p>
+        </section>
+        <section>
+            <h3>2.ENCABEZADOS Y PROPIEDADES DEL TEXTO</h3>
+            <p style="font-weight: bold;">Este es un texto en negrita</p>
+            <p style="font-style: italic;">Este es un texto en cursiva</p>
+            <p style="text-decoration: underline;">Este es un texto subrayado</p>
+        </section>
+
+        <section>
+            <h3>3.DIVISIONES Y AGRUPACIONES DE CONTENIDO</h3>
+            <div>
+                <h3>Seccion 1</h3>
+                <p>Contenido de la primera seccion agrupada en un div</p>
+            </div>
+            <div>
+                <h3>Sección 2</h3>
+                <p>Contenido de la segunda seccion agrupada en un div</p>
+            </div>
+        </section>
+
+        <section>
+            <h3>4.ENLACES Y LISTAS</h3>
+            <p>Visita nuestro <a href="https://www.google.com/?hl=es" target="_blank" >sitio web</a> para mas informacion</p>
+            <p>Enlaces internos:</p>
+            <ul>
+                <li><a href="#estrutura"  >Ir a Estructura</a></li>
+                <li><a href="#multimedia" >Ir a Multimedia</a></li>
+                <li><a href="#formulario">Ir a Formulario</a></li>
+            </ul>
+            <p>Lista desordenada:</p>
+            <ul>
+                <li>Primer item de una lista desordenada</li>
+                <li>Segundo item de una lista desordenada</li>
+            </ul>
+            <p>Lista ordenada:</p>
+            <ol>
+                <li>Primer item de una lista ordenada</li>
+                <li>Segundo item de una lista dordenada</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2 id="multimedia">MULTIMEDIA</h2>
+            <h3>5.ELEMENTOS MULTIMEDIA</h3>
+            <img 
+            src="https://www.cnet.com/a/img/resize/b9b09bd80b3129a6a5da79d9bd17487b977c9677/hub/2014/10/27/40194e6e-2544-419e-a340-f7c17b2e83c5/html5-wow-image-w3c.jpg?auto=webp&width=768" width="300px" 
+            height="200px" 
+            alt="Logo de HTML5"/>
+            <video 
+            src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4"
+            width="200px" 
+            height="200px" 
+            controls>
+            </video>
+    
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls>
+            </audio>
+        </section>
+
+        <section>
+            <h3>6.TABLAS</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Columna 1</th>
+                <th>Columna 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1</td>
+                <td>Dato 2</td>
+            </tr>
+            <tr>
+                <td>Dato 3</td>
+                <td>Dato 4</td>
+            </tr>
+        </tbody>
+    </table>
+        </section>
+        <section>
+            <h2 id="formulario">FORMULARIO</h2>
+            <h3>7.FORMULARIOS</h3>
+            <form>
+                    <label>Nombre:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="email">               <label>Mensaje:</label>
+                    <input type="text">    
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
